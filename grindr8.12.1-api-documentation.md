@@ -11,7 +11,7 @@ Grindr's service is comprised of:
   2. A regular HTTP CDN, at https://cdns.grindr.com (they claim it is https but is not secure...)
   3. An XMPP server at chat.grindr.com:5222
 
-All API calls to the REST endpoint must be sent with the HTTP user-agent set to something like `grindr3/3.0.1.4529;4529;Unknown;Android 4.4.4`.
+All API calls to the REST endpoint must be sent with the HTTP user-agent set to something like `grindr3/8.12.1.100218;100218;Unknown;Android 12`.
 The REST endpoint will fail requests with HTTP/412 if it doesn't like the user-agent.
 
 ## Updating dynamic configuration
